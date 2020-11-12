@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://demo.gridgum.com/templates/bootstrap-templates/28260/ -->
+<html lang="en"><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Civil Engineering - Bootstrap template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Your name">
+<link rel="icon" href="https://demo.gridgum.com/templates/bootstrap-templates/28260/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://demo.gridgum.com/templates/bootstrap-templates/28260/images/favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="./bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./bootstrap-responsive.css" type="text/css" media="screen">    
+<link rel="stylesheet" href="./camera.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./style.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="./jquery.js(1).download"></script>  
+<script type="text/javascript" src="./jquery.easing.1.3.js.download"></script>
+<script type="text/javascript" src="./superfish.js.download"></script>
+
+<script type="text/javascript" src="./jquery.ui.totop.js.download"></script>
+
+<script type="text/javascript" src="./camera.js.download"></script>
+<script type="text/javascript" src="./jquery.mobile.customized.min.js.download"></script>
+
+<script type="text/javascript" src="./jquery.spritely-0.6.js.download"></script>
+
+<script type="text/javascript" src="./jquery.caroufredsel.js.download"></script>
+<script type="text/javascript" src="./jquery.touchSwipe.min.js.download"></script>
+
+<script type="text/javascript" src="./script.js.download"></script>
+<script>
+$(document).ready(function() {
+	// camera
+	$('#camera_wrap').camera({
+		//thumbnails: true
+		autoAdvance			: false,		
+		mobileAutoAdvance	: false,
+		height: '55%',
+		hover: false,
+		loader: 'none',
+		navigation: false,
+		navigationHover: false,
+		mobileNavHover: false,
+		playPause: false,
+		pauseOnClick: false,
+		pagination			: true,
+		time: 7000,
+		transPeriod: 1000,
+		minHeight: '200px'
+	});
+
+	//	carouFredSel
+	$('#slider3 .carousel.main ul').carouFredSel({
+		auto: {
+			timeoutDuration: 4000					
+		},
+		responsive: true,
+		prev: '.prev3',
+		next: '.next3',
+		width: '100%',
+		scroll: {
+			items: 1,
+			duration: 1000,
+			easing: "easeOutExpo"
+		},			
+		items: {
+        	width: '460',
+			height: 'variable',	//	optionally resize item-height			  
+			visible: {
+				min: 1,
+				max: 3
+			}
+		},
+		mousewheel: false,
+		swipe: {
+			onMouse: true,
+			onTouch: true
+			}
+	});
+	$(window).bind("resize",updateSizes_vat).bind("load",updateSizes_vat);
+	function updateSizes_vat(){
+		$('#slider3 .carousel.main ul').trigger("updateSizes");
+	}
+	updateSizes_vat();
+
+	
+
+}); //
+$(window).load(function() {
+	//
+
+}); //
+</script>		
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>  
+	<![endif]-->    
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>      
+  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<![endif]-->
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+
+<body class="main" marginwidth="0" marginheight="0">
+<div id="main">
+
+<header>
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="header_inner clearfix">
+<div class="logo_wrapper"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index.html" class="logo"><img src="./logo(1).png" alt=""></a></div>	
+<div class="menu_wrapper">
+<div class="navbar navbar_">
+	<div class="navbar-inner navbar-inner_">
+		<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="nav-collapse nav-collapse_ collapse">
+			<ul class="nav sf-menu clearfix sf-js-enabled">
+				<li class="active"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index.html">home</a></li>				
+				<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-1.html">about</a></li>												
+				<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-2.html">services</a></li>													
+				<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-3.html">what we build</a></li>
+				<li class="sub-menu sub-menu-1"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">projects<em></em></a>
+					<ul style="display: none;">
+						<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">Finished projects</a></li>
+						<li class="sub-menu sub-menu-2"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">curent projects<em></em></a>
+							<ul style="display: none;">
+								<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">lorem ipsum dolor</a></li>
+								<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">sit amet</a></li>
+								<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">adipiscing elit</a></li>
+								<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">nunc suscipit</a></li>
+								<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/404.html">404 page not found</a></li>
+							</ul>
+						</li>
+						<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-4.html">project archive</a></li>											
+					</ul>						
+				</li>											
+				<li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/index-5.html">contact us</a></li>				
+			</ul>
+		</div>
+	</div>
+</div>	
+</div>
+</div>	
+</div>	
+</div>	
+</div>	
+</header>
+
+<div id="slider_wrapper">
+<img src="./sky1.jpg" alt="" class="sky1">
+<img src="./houses1.png" alt="" class="houses1">	
+<div id="tractor1" style="background-position: -600px 0px;"></div>
+<div id="slider_wrapper2">
+<div id="slider_inner">
+<div class="container">
+<div class="row">
+<div class="span8">
+<div id="slider" class="clearfix">
+<div id="camera_wrap" class="camera_wrap" style="display: block; margin-bottom: 0px; height: 424px;"><div class="camera_fakehover"><div class="camera_src paused camerastarted">
+	<div data-src="images/slide01.jpg">
+		     
+	</div>
+	<div data-src="images/slide02.jpg">
+		     
+	</div>
+	<div data-src="images/slide03.jpg">
+		     
+	</div>
+	<div data-src="images/slide04.jpg">
+		     
+	</div>		
+</div><div class="camera_target"><div class="cameraCont"><div class="cameraSlide cameraSlide_0 cameracurrent" style="visibility: visible; display: block; z-index: 999;"><img src="./slide01.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="620" height="346" style="visibility: visible; height: 429.71px; margin-left: 0px; margin-top: -2.85484px; position: absolute; width: 770px;"><div class="camerarelative" style="width: 770px; height: 424px;"></div></div><div class="cameraSlide cameraSlide_1 cameranext" style="display: none;"><img src="./slide02.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="620" height="346" style="visibility: visible; height: 429.71px; margin-left: 0px; margin-top: -2.85484px; position: absolute; width: 770px;"><div class="camerarelative" style="width: 770px; height: 424px;"></div></div><div class="cameraSlide cameraSlide_2"><div class="camerarelative" style="width: 770px; height: 424px;"></div></div><div class="cameraSlide cameraSlide_3"><div class="camerarelative" style="width: 770px; height: 424px;"></div></div><div class="cameraSlide cameraSlide_4" style="z-index: 1; display: none;"><div class="camerarelative" style="width: 770px; height: 424px;"></div></div></div></div><div class="camera_overlayer"></div><div class="camera_target_content"><div class="cameraContents"><div class="cameraContent cameracurrent" style="display: block;"><div class="camera_caption fadeIn" style="visibility: visible; opacity: 1;"><div>
+			<div class="txt1">STRIVING TO EXCELLENCE<br>IN SERVICE WE PROVIDE</div>
+			<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>	
+			<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button0">details</a>		
+		</div></div></div><div class="cameraContent"><div class="camera_caption fadeIn" style="visibility: hidden;"><div>
+			<div class="txt1">WE BUILD THE FUTURE<br>WE ACCOMPLISH<br>INDIVIDUAL PROJECTS</div>
+			<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>	
+			<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button0">details</a>		
+		</div></div></div><div class="cameraContent"><div class="camera_caption fadeIn" style="visibility: hidden;"><div>
+			<div class="txt1">WE BUILD THE HOME<br>OF YOUR DREAM</div>
+			<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>	
+			<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button0">details</a>		
+		</div></div></div><div class="cameraContent"><div class="camera_caption fadeIn" style="visibility: hidden;"><div>
+			<div class="txt1">New technologies.<br>New life.</div>
+			<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>	
+			<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button0">details</a>		
+		</div></div></div></div></div><div class="camera_bar" style="display: none; top: auto; height: 7px;"><span class="camera_bar_cont" style="opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: rgb(34, 34, 34);"><span id="pie_0" style="opacity: 0.8; position: absolute; background-color: rgb(238, 238, 238); left: 0px; right: 0px; top: 2px; bottom: 2px; display: none;"></span></span></div></div><div class="camera_pag"><ul class="camera_pag_ul"><li class="pag_nav_0 cameracurrent" style="position:relative; z-index:1002"><span><span>0</span></span></li><li class="pag_nav_1" style="position:relative; z-index:1002"><span><span>1</span></span></li><li class="pag_nav_2" style="position:relative; z-index:1002"><span><span>2</span></span></li><li class="pag_nav_3" style="position:relative; z-index:1002"><span><span>3</span></span></li></ul></div><div class="camera_loader" style="display: none;"></div></div>	
+</div>
+</div>	
+<div class="span4"></div>
+</div>	
+</div>	
+</div>	
+</div>
+</div>	
+
+<div id="slider3_wrapper">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div id="slider3">
+<a class="prev3" href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" style="display: block;"></a>
+<a class="next3" href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" style="display: block;"></a>	
+<div class="carousel-box row">
+	<div class="inner span12">			
+		<div class="carousel main">
+			<div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 1188.05px; height: 234px; margin: 0px; overflow: hidden; cursor: move;"><ul style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: -386.358px; margin: 0px; width: 7524px; height: 234px; z-index: auto;">
+				
+				
+				
+				
+				
+				
+				
+												
+			<li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel01.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">architecture bureau</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel02.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">construction</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel03.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">equipment</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel04.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">building</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel01.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">architecture bureau</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel02.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">construction</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel03.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">equipment</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li><li style="width: 376px;">
+					<div class="thumb-carousel">
+						<div class="thumbnail clearfix">							
+							<figure>
+								<img src="./carousel04.png" alt="">
+							</figure>
+							<div class="caption">
+								<div class="txt1">building</div>
+								<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+								<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">details</a>
+							</div>															
+						</div>
+					</div>
+				</li></ul></div>
+		</div>
+	</div>
+</div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+<div id="tabbable_wrapper1">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div id="tabbable1">
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#tab1" data-toggle="tab">Current Projects</a></li>
+    <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#tab2" data-toggle="tab">Finished Projects</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <div class="row">
+      	<div class="span3">
+      		<div class="thumb1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home01.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="span3">
+      		<div class="thumb1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home02.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="span3">
+      		<div class="thumb1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home03.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="span3">
+      		<div class="thumb1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home04.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      </div>
+      <div class="text-center"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">click here to see all curent projects</a></div>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <div class="row">
+      	<div class="span3">
+      		<div class="thumb1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home05.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="span3">
+      		<div class="thumb1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home06.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="span3">
+      		<div class="thumb1 team1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home07.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="span3">
+      		<div class="thumb1 team1">
+				<div class="thumbnail clearfix">
+					<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">
+						<figure class=""><img src="./home08.jpg" alt=""><em><span>click for details</span></em></figure>
+						<div class="caption">
+							<div class="txt1">Project Titele</div>
+							<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing.</div>						
+						</div>
+					</a>
+				</div>
+			</div>
+      	</div>
+      </div>
+      <div class="text-center"><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" class="button1">click here to see all curent projects</a></div>
+    </div>
+  </div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+<footer>
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="footer_inner clearfix">
+<div class="row">
+	<div class="span3">
+		<div class="footer_block1">
+			<div class="bot_title">Sectors</div>
+			<ul class="ul0">
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Commercial</a></li>
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Education</a></li>
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Building Services</a></li>
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Projects</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="span3">
+		<div class="footer_block2">
+			<div class="bot_title">Divisions</div>
+			<ul class="ul0">
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Power Systems</a></li>
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Healthcare</a></li>
+			  <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Industrial / Process</a></li>		  
+			</ul>
+		</div>
+	</div>
+	<div class="span6">
+		<div class="footer_block3 clearfix">
+			<div class="phone1">Call now to find out how: <span>1-800-477-5175</span></div>
+			<div class="clearfix"></div>
+			<div class="social_wrapper">
+				<ul class="social clearfix">
+				    <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" style="opacity: 0.6;"><img src="./social_ic1.png"></a></li>
+				    <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" style="opacity: 0.6;"><img src="./social_ic2.png"></a></li>
+				    <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" style="opacity: 0.6;"><img src="./social_ic3.png"></a></li>
+				    <li><a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" style="opacity: 0.6;"><img src="./social_ic4.png"></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+			<div class="copyright">ES Engineer © 2015. &nbsp;|&nbsp; <a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#">Privacy policy</a></div>
+		</div>
+	</div>
+</div>
+</div>	
+</div>	
+</div>	
+</div>	
+</footer>
+	
+
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript" src="./bootstrap.js.download"></script>
+
+<a href="https://demo.gridgum.com/templates/bootstrap-templates/28260/#" id="toTop" style="display: none;"><span id="toTopHover"></span></a></body></html>
